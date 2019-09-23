@@ -1,15 +1,14 @@
-package DealerStat.domain.entites;
+package dealerstat.domain.entites;
 
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "comment")
+@Table(name = "Comment")
 public class Comment {
     @Id
     private Long id;
     private String message;
-
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "post_id")
@@ -43,19 +42,19 @@ public class Comment {
         this.message = message;
     }
 
-    public GameObject getPost_id() {
+    public GameObject getPostId() {
         return post_id;
     }
 
-    public void setPost_id(GameObject post_id) {
+    public void setPostId(GameObject post_id) {
         this.post_id = post_id;
     }
 
-    public User getAuthor_id() {
+    public User getAuthorId() {
         return author_id;
     }
 
-    public void setAuthor_id(User author_id) {
+    public void setAuthorId(User author_id) {
         this.author_id = author_id;
     }
 }

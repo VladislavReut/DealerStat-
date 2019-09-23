@@ -1,4 +1,4 @@
-package DealerStat.domain.entites;
+package dealerstat.domain.entites;
 import org.springframework.security.core.GrantedAuthority;
 
 public enum Role implements GrantedAuthority {

@@ -1,10 +1,8 @@
-package DealerStat.domain.repository;
+package dealerstat.domain.repository;
 
-import DealerStat.domain.entites.Comment;
-import DealerStat.domain.entites.User;
+import dealerstat.domain.entites.Comment;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CommentRepository extends JpaRepository<Comment,Long> {
     Iterable <Comment> findAllByAuthorId(Long author_id);
-
 }

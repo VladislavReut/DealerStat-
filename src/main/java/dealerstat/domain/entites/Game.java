@@ -1,4 +1,4 @@
-package DealerStat.domain.entites;
+package dealerstat.domain.entites;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

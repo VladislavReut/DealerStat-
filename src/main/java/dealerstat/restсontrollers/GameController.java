@@ -1,7 +1,6 @@
 package dealerstat.restсontrollers;
 
 import dealerstat.domain.entites.Game;
-import dealerstat.domain.repository.GameRepository;
 import dealerstat.service.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;

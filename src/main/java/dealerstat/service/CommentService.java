@@ -5,13 +5,8 @@ import dealerstat.domain.entites.User;
 import dealerstat.domain.repository.CommentRepository;
 import dealerstat.domain.repository.GameObjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 
 @Service
 public class CommentService {
